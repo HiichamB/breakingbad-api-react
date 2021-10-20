@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+* {
+  font-family: 'Mukta', sans-serif;
+}
+h1 {
+  color: rgb(34, 73, 8);
+}
+.card {
+  margin: 20px 10px;
+  height: 400px;
+  width: 280px;
+  border-radius: 20px;
+  box-shadow: 0 6px 8px 0 rgba(34, 73, 8, 0.5);
+}
+
+.card-image {
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.title-char {
+  font-weight: 800;
+}
+.text-char {
+  font-size: 1.2em;
+}
+.list-char {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bold {
+  font-weight: bold;
+}
+input {
+  outline: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.form {
+  max-width: 400px;
+  margin: 10px auto;
+}
